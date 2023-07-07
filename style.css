@@ -52,4 +52,36 @@ button{
     padding-bottom: 0;
     padding-left: 10px;
 }
+@media screen and (max-width: 425px){
+    .calc-body{
+        width: 300px;
+        height: 500px;
+        background-color: rgb(106, 106, 106);
+        border-radius: 15px;
+        border: solid;
+    }
+    .calc-logo{
+        color: white;
+        font-weight: bolder;
+        font-size: 25px;
+        padding: 8px 8px;
+    }
+    #screen{
+        margin-top: 8px;
+        background-color: white;
+        width: 80%;
+        height: 35px;
+        border: solid #242F40;
+        border-radius: 5px;
+        margin-left: 25px;
+        pointer-events: none;
+    }
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+
+}
+ 
  
