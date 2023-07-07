@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.calc-body{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(106, 106, 106);
+    border-radius: 20px;
+    border: solid;
+}
+.calc-logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+
+#screen{
+    margin-top: 10px;
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    border: solid #242F40;
+    border-radius: 5px;
+    margin-left: 35px;
+    pointer-events: none;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+button{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.zero-button{
+    width:162.5px;
+    border-radius: 85px;
+}
+
+.button-container{
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+ 

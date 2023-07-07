@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="scsript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Web</title>
+</head>
+<body>
+
+    <div class="rootdiv">
+        <div class="calc-body">
+            <div class="calc-logo">CASIO</div>
+            <div class="calc-screen">
+                <input type="text" id="screen">
+            </div>
+            <div class="button-container">
+
+            <div class="row firstrow">
+                <button onclick="clearscreen()">AC</button>
+                <button onclick="buttonclick('(')">(</button>
+                <button onclick="buttonclick( ')' )">)</button>
+                <button onclick="rootfn()">√ </button>
+        
+                
+            </div>
+            <div class="row secondrow">
+                <button onclick="buttonclick(7)">7</button>
+                <button onclick="buttonclick(8)">8</button>
+                <button onclick="buttonclick(9)">9</button>
+                <button onclick="buttonclick('*')">X</button>
+            </div> 
+            <div class="row thirdrow">
+                <button onclick="buttonclick(4)">4</button>
+                <button onclick="buttonclick(5)">5</button>
+                <button onclick="buttonclick(6)">6</button>
+                <button onclick="buttonclick('-')">-</button>
+            </div>
+            <div class="row fourthrow">
+                <button onclick="buttonclick(1)">1</button>
+                <button onclick="buttonclick(2)">2</button>
+                <button onclick="buttonclick(3)">3</button>
+                <button onclick="buttonclick('+')">+</button>
+            </div>
+            <div class="row fifthrow">
+                <button onclick="buttonclick('.')">.</button>
+                <button onclick="buttonclick(0)">0</button>
+                <button onclick="buttonclick('/')">/</button>
+                <button onclick="equalto('=')">=</button>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
